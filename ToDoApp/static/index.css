@@ -1,0 +1,47 @@
+body{
+    
+    background:url(images/bg.jpg) no-repeat center center fixed ;
+   
+}
+#qq{
+    text-align: center;
+    color:white;
+}
+
+
+#submitb{
+    
+    background: whitesmoke;
+    color:black;
+    border-radius: 30%;
+    width: 60px;
+    font-size:20px;
+}
+
+.input1{
+    background:url(images/bg.jpg)  ;
+    opacity: 0.5;
+    
+    width:30%;
+    padding:40px;
+    margin-left: 30%;
+}
+
+.data1{
+    color:blanchedalmond;   
+}
+
+.data1 h3{
+    color:white;
+    opacity: 1;
+
+}
+
+.data1 a{
+    opacity: 1;
+    color:red;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+

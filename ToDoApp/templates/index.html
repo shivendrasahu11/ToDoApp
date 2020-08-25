@@ -1,0 +1,44 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{%static 'index.css'%}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    
+    <h2 id="qq">“Check your life. Not boxes.”</h2>
+  
+     
+   <div class='body1'> 
+       
+    
+    <div class='input1'>
+        
+        <form method="post">
+    
+       {%csrf_token%}
+
+       {{form.title}}
+    
+       <input id='submitb'type="submit" value='Add '>
+    
+   </form>
+
+     <div class='data1'>
+     
+    {%for task in tasks%}
+
+   <h3 > {{task.title}}--  
+    {{task.complete}} </h3>
+       <a  href="{%url 'update' task.id%}">Update</a>
+       <a href="{%url 'delete' task.id%}">delete</a>
+
+     {%endfor%}
+    </div>
+    </div>
+    </div>
+</body>
+</html>

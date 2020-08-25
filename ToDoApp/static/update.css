@@ -1,0 +1,25 @@
+body{
+    text-align:center;
+    background:url(images/bg.jpg) no-repeat center center fixed ;
+   
+}
+h2{
+    padding:60px;
+    text-align:center;
+    color:whitesmoke;
+}
+form h3{
+    text-align:center;
+    color:whitesmoke;
+
+}
+#submit{
+    height: 30px;
+    width:70px;
+    float:left;
+    margin-left: 38%;
+    background-color:black;
+    color:white;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
